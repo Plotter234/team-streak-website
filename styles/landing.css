@@ -139,6 +139,7 @@ button {
 }
 
 .btn-7 {
+    top: 1px;
     font-size: 40px;
     left: 1200px;
     width: 45px;
