@@ -1,0 +1,190 @@
+body {
+    background-color: rgba(247, 132, 0, 0.918);
+}
+
+#welcom {
+    transition: 1s;
+    font-size: 50px;
+    position: relative;
+    color: black;
+    text-align: center;
+    animation: color 10s infinite linear;
+}
+
+@keyframes color {
+    0% { color: red; }
+    33.33% { color: orangered; }
+    66.66% { color: rgb(251, 255, 0); }
+    100% { color: black; }
+} /* Removed the extra brace that was here */
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+}
+
+.custom-btn {
+    display: inline-block; /* Essential for <a> tags to respect width/height */
+    width: 130px;
+    height: 40px;
+    line-height: 40px; /* Centers text vertically for <a> tags */
+    text-decoration: none; /* Removes the default link underline */
+    color: #000000;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    text-align: center; /* Centers text horizontally */
+    box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0),
+                7px 7px 20px 0px rgba(0,0,0,.1),
+                4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.btn-5 {
+    left: 250px;
+    top: 4px;
+    padding: 0;
+    font-size: 35px;
+    border: none;
+    background: rgb(255,27,0);
+    background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+
+/* Ensure the hover state doesn't show a default blue/purple link color */
+.btn-5:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-5:before,
+.btn-5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #f0094a;
+    box-shadow: -1px -1px 5px 0px #fff,
+                7px 7px 20px 0px #0003,
+                4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-5:after {
+    right: auto; /* Use auto instead of inherit for better compatibility */
+    top: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.btn-6 {
+    bottom: 5px;
+    left: 720px;
+    padding-bottom: 15px;
+    padding: 0;
+    font-size: 20px;
+    border: none;
+    background: rgb(255,27,0);
+    background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+
+/* Ensure the hover state doesn't show a default blue/purple link color */
+.btn-6:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-6:before,
+.btn-6:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #f0094a;
+    box-shadow: -1px -1px 5px 0px #fff,
+                7px 7px 20px 0px #0003,
+                4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-6:after {
+    right: auto; /* Use auto instead of inherit for better compatibility */
+    top: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-6:hover:before,
+.btn-6:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.btn-7 {
+    font-size: 40px;
+    left: 1200px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background: rgb(255,27,0);
+    background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+
+/* Ensure the hover state doesn't show a default blue/purple link color */
+.btn-7:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-7:before,
+.btn-7:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #f0094a;
+    box-shadow: -1px -1px 5px 0px #fff,
+                7px 7px 20px 0px #0003,
+                4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-7:after {
+    right: auto; /* Use auto instead of inherit for better compatibility */
+    top: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-7:hover:before,
+.btn-7:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.frc-img{
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 40px;
+    height: 35px;
+}
