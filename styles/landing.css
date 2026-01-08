@@ -50,6 +50,10 @@ button {
 }
 
 .btn-5 {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
     left: 250px;
     top: 4px;
     padding: 0;
@@ -93,9 +97,21 @@ button {
     transition: 800ms ease all;
 }
 
+.frc-img{
+    border-radius: 5px;
+    margin-bottom: 1px;
+    width: 40px;
+    height: 35px;
+}
+
 .btn-6 {
-    bottom: 5px;
-    left: 720px;
+    width: 180px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
+    bottom: 36px;
+    left: 850px;
     padding-bottom: 15px;
     padding: 0;
     font-size: 20px;
@@ -138,10 +154,17 @@ button {
     transition: 800ms ease all;
 }
 
+.history-img{
+    border-radius: 5px;
+    margin-bottom: 1px;
+    width: 40px;
+    height: 35px;
+}
+
 .btn-7 {
-    top: 1px;
+    bottom: 76px;
     font-size: 40px;
-    left: 1200px;
+    left: 1500px;
     width: 45px;
     height: 45px;
     border: none;
@@ -183,9 +206,58 @@ button {
     transition: 800ms ease all;
 }
 
-.frc-img{
-    margin-top: 2px;
+.btn-8 {
+    text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
+    width: 200px;
+    top: 100px;
+    font-size: 35px;
+    left: 850px;
+    border: none;
+    background: rgb(255,27,0);
+    background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+
+/* Ensure the hover state doesn't show a default blue/purple link color */
+.btn-8:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-8:before,
+.btn-8:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #f0094a;
+    box-shadow: -1px -1px 5px 0px #fff,
+                7px 7px 20px 0px #0003,
+                4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-8:after {
+    right: auto; /* Use auto instead of inherit for better compatibility */
+    top: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-8:hover:before,
+.btn-8:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.keshet-reem-img{
     border-radius: 5px;
+    margin-bottom: 1px;
     width: 40px;
     height: 35px;
 }
