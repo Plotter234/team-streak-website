@@ -2,6 +2,29 @@ body {
     background-color: rgba(247, 132, 0, 0.918);
 }
 
+@media(max-width: 768px) {
+    #welcom {
+        font-size:30px;
+        margin-top: 20px;
+    }
+
+    .btn-5, .btn-6, .btn-7, .btn-8 {
+        position: static;
+        margin: 15px auto;
+        display: flex;
+        width: 80%;
+        max-width: 300px;
+        font-size: 20px;
+        height: auto;
+        padding:10px;
+    }
+
+    .frame {
+        width: 95%;
+        margin: 10px auto;
+    }
+}
+
 #welcom {
     transition: 1s;
     font-size: 50px;
