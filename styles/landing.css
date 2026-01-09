@@ -13,9 +13,10 @@ body {
 
 @keyframes color {
     0% { color: red; }
-    33.33% { color: orangered; }
-    66.66% { color: rgb(251, 255, 0); }
-    100% { color: black; }
+    25% { color: orangered; }
+    50% { color: rgb(255, 238, 0); }
+    75% { color: black; }
+    100% { color: red; }
 } /* Removed the extra brace that was here */
 
 .frame {
